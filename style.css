@@ -86,3 +86,121 @@ body {
    width: 400px;
    flex-shrink: 1;
 }
+
+.main {
+   text-align: center;
+}
+
+.service-section {
+   color: #1f2937;
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 35px 0;
+}
+
+.service-section h2 {
+   margin-bottom: 25px;
+}
+
+.service-containers {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 20px;
+}
+
+.boxes-container {
+   flex-basis: 300px;
+   flex-grow: 1;
+   line-height: 1.5;
+}
+
+.service-section .box {
+   border: 2px solid #3882f6;
+   border-radius: 8px;
+   height: 150px;
+   display: flex;
+}
+
+.box img {
+   border-radius: 8px;
+   flex: 1;
+}
+
+.article {
+   background: #dad6d6;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+}
+
+.article .container {
+   width: 70%;
+}
+
+.article p {
+   font-size: 20px;
+   line-height: 1.5;
+   font-weight: 200;
+   font-style: italic;
+}
+
+.article p:last-child {
+   text-align: right;
+   font-weight: bold;
+}
+
+.testimony {
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.testimony .container {
+   width: 80%;
+   background: #3882f6;
+   padding: 45px 70px;
+}
+
+.testimony p {
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 1.5;
+}
+
+.testimony .cta {
+   display: flex;
+   justify-content: space-between;
+}
+.testimony .cta p {
+   font-weight: 100;
+   color: #edeaea;
+}
+
+.cta button {
+   background: transparent;
+   border: 2px solid #fff;
+   padding: 10px 24px;
+   color: #fff;
+   border-radius: 8px;
+}
+
+.footer {
+   background: #1f2937;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer {
+   color: #fff;
+   font-size: 17px;
+}
